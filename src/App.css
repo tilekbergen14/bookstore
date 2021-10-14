@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+/***shopping cart***/
+.cart {
+  display: flex;
+  padding: 8px;
+  color: #252a34;
+  margin-bottom: 16px;
+  box-shadow: 1px 1px 4px #252a34;
+  border-radius: 8px;
+}
+.icon-image {
+  height: 128px;
+  width: 128px;
+  margin: 0 8px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px #252a34;
+}
+.item-actions {
+  padding: 8px;
+}
+.price {
+  font-size: 20px;
+}
+.tenge-sign {
+  font-size: 16px;
+}
+.title {
+  font-size: 24px;
+}
+.description {
+  font-size: 18px;
+  color: #757575;
+}
+.item-info {
+  padding: 8px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.total {
+  padding: 8px;
+  margin: 0 16px;
+  color: #252a34;
+  height: max-content;
+  box-shadow: 1px 1px 4px #252a34;
+  border-radius: 8px;
+  width: 200px;
+}
+.title {
+  margin-bottom: 8px;
+}
+h5 {
+  font-size: 20px;
+  color: #212121;
+  font-weight: 500;
+  margin: 8px 0;
+}
+@media screen and (max-width: 600px) {
+  .list {
+    flex-direction: column;
+  }
+  .total {
+    margin: 0;
+  }
+}
+/********Appbar********/
+.card-counter-small {
+  font-size: 0.6em;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
