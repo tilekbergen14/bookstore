@@ -5,7 +5,7 @@ import InputBase from "@mui/material/InputBase";
 import Context from "../Context";
 
 export default function SearchBar() {
-  const { books, onSearch } = useContext(Context);
+  const { onSearch } = useContext(Context);
 
   const onSearh = (e) => {
     onSearch(e.target.value);
